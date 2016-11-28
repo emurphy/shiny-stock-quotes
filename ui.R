@@ -4,9 +4,9 @@ shinyUI(
         headerPanel("Stock quote"),
         
         sidebarPanel(
-            textInput('symbol', label=h3("Ticker symbol"), value="GOOG"),
-            helpText('e.g. BRKA, GOOG, TM'),
-            submitButton('Submit')
+            textInput('symbol', label=h3("Enter ticker symbol"), value="GOOG"),
+            helpText("Examples: 'BRKA', 'GOOG', 'TM' or 'BRKA;GOOG;TM' (separate by semi-colon)"),
+            submitButton('Get Quote')
         ),
         mainPanel(
             h3('Quote'),
