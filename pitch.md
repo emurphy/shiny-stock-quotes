@@ -16,19 +16,20 @@ Is it not self-explanatory and self-documenting?
 
 Just in case, the steps are:
 - Enter ticker symbol
-- Click submit and wait a few seconds
+- Click 'Get quote' and wait a few seconds
 - See the latest price
 
 Enter ticker symbol
 ========================================================
 
-You can look up more here ticker symbols here: http://finance.yahoo.com/lookup
+You can look up more ticker symbols here: http://finance.yahoo.com/lookup
 
 Our favorites:
 - BRKA for Berkshire Hathaway
 - GOOG for Google
 - TM for Toyota 
 
+To enter multiple symbols, separate with a semi-colon
 
 Quantmod lookups
 ========================================================
@@ -42,7 +43,7 @@ price('GOOG')
 ```
 
 ```
-[1] 761.68
+[1] 768.24
 ```
 
 Full source code available at  
